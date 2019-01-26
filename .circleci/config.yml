@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: sudo npm install -g @angular/cli lerna
-      - run: npm install
+      - run: lerna bootstrap
 
 
       - save_cache:
